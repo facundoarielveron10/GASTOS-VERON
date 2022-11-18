@@ -67,7 +67,7 @@ const Gasto = ({ gasto, setGastoEditar, eliminarGasto }) => {
                             <p className="nombre-gasto">{nombre}</p>
                             {/* Fecha */}
                             <p className="fecha-gasto">
-                                Agregado el {''}
+                                Agregado el: {''}
                                 <span>{formatearFecha(fecha)}</span>
                             </p>
                         </div>
